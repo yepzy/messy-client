@@ -1,0 +1,204 @@
+@import 'font-awesome/scss/font-awesome.scss';
+
+body {
+  background: cadetblue;
+  font-family: sans-serif;
+  height: 100vh;
+  overflow-y: hidden;
+  margin: 0;
+
+  #root {
+    width: 40vw;
+    margin: 0 auto;
+
+    .block {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+
+      #title {
+        text-align: center;
+
+        & > a {
+          color: whitesmoke;
+          text-decoration: none;
+        }
+      }
+
+      nav > ul > li {
+        display: inline-block;
+        margin: 10px 20px;
+        border-bottom: transparent 2px solid;
+        &:hover {
+          border-color: white;
+        }
+        & > a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+
+      .form-group {
+        width: 40%;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+
+        & > label {
+          text-transform: uppercase;
+          font-size: 0.6em;
+          color: white;
+          display: block;
+          margin: 10px auto 5px;
+        }
+
+        & > input {
+          display: block;
+          width: 100%;
+          padding: 5px 0;
+          background: transparent;
+          border: none;
+          border-bottom: solid white 2px;
+          color: white;
+
+          &:focus {
+            outline: none;
+          }
+
+          &:-webkit-autofill {
+            -webkit-box-shadow: none;
+          }
+        }
+
+        & > button {
+          border-radius: 10px;
+          background: white;
+          color: cadetblue;
+          font-size: 1em;
+          padding: 10px 20px;
+          box-shadow: none;
+
+          &:hover {
+            background: cadetblue;
+            color: white;
+            box-shadow: none;
+          }
+        }
+      }
+
+      .message {
+        background: lightblue;
+        margin: 10px 5px;
+        border-radius: 5px;
+
+        & > div {
+          display: inline-block;
+        }
+
+        & > .user-block {
+          width: 20%;
+        }
+
+        & > .message-block {
+          width: 75%;
+        }
+
+        & > .delete-block {
+          width: 5%;
+        }
+      }
+
+      .user-form {
+        flex: 1;
+      }
+
+      .block-messages {
+        display: flex;
+        flex-direction: column;
+        overflow-y: hidden;
+        height: 100%;
+        & > .list-messages {
+          flex: 1;
+          overflow-y: scroll;
+          margin-bottom: 5px;
+
+          & > .message {
+
+            & > .user-block {
+              width: 110px;
+
+              & > .user {
+                margin: 5px 5px auto auto;
+                text-align: center;
+                height: 100%;
+
+                & > img {
+                  margin: 5px 5px auto auto;
+                }
+
+                & > p {
+                  margin: 5px 5px 5px auto;
+                  text-align: center;
+                }
+              }
+            }
+
+            & > .content-block {
+
+              & > p {
+
+              }
+
+              & > .delete-block {
+                position: absolute;
+
+              }
+
+              & > .date-block {
+
+              }
+            }
+          }
+        }
+
+        & > .write-form {
+          height: 50px;
+
+          & > div {
+            display: flex;
+
+            & > input {
+              height: 50px;
+              flex: 1;
+            }
+
+            & > button {
+              height: 50px;
+              width: 50px;
+              border: none;
+
+              &:hover {
+                background: blue;
+              }
+            }
+          }
+        }
+      }
+
+      *:visited {
+        color: white;
+      }
+
+      a:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #root {
+    width: 100%;
+  }
+
+}

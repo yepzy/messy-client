@@ -2,8 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import MessageEdit from './MessageEdit';
 import MessageDisplay from './MessageDisplay';
-import jwtDecode = require('jwt-decode');
-
+import jwtDecode from 'jwt-decode';
 
 const ListMessages = (props) => {
 
@@ -17,11 +16,13 @@ const ListMessages = (props) => {
         }
 
         if (!_.isUndefined(props.messages) && _.isArray(props.messages)) {
+            let user_id = jwtDecode(props.token).id;
             props.messages.map((msg) => {
-                let user_id =
-                console.log(" msg ",msg.user_id," user ",props.user_id);
-                let deletable = msg.user_id === props.user_id;
-                messages.push(<MessageDisplay key={msg.id} user={msg.user} deletable={deletable} content={msg.message}
+                let deletable = msg.user_id === user_id;
+                messages.push(<MessageDisplay key={msg.id}
+                                              id={msg.id}
+                                              user={msg.user} deletable={deletable}
+                                              content={msg.message}
                                               date={msg.date} parent={props}/>);
             });
         }

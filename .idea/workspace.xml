@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d21c2c0-c18e-46ad-9d6f-3d33414ac77b" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Redux" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="store.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageEdit.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/MessageEdit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+              <folding>
+                <marker date="1494589853024" expanded="true" signature="634:670" ph="&lt;div/&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actionCreators.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/actions/actionCreators.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="170" column="16" lean-forward="false" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#390#0" expanded="false" />
+                <element signature="n#!!block;n#autoConnect#0" expanded="false" />
+                <element signature="e#504#570#0" expanded="false" />
+                <element signature="n#!!block;n#logout#0" expanded="false" />
+                <element signature="e#613#643#0" expanded="false" />
+                <element signature="n#!!block;n#createAccount#0" expanded="false" />
+                <element signature="e#729#1712#0" expanded="false" />
+                <element signature="e#795#869#0" expanded="false" />
+                <element signature="e#1022#1236#0" expanded="false" />
+                <element signature="e#1073#1186#0" expanded="false" />
+                <element signature="e#1295#1551#0" expanded="false" />
+                <element signature="e#1399#1471#0" expanded="false" />
+                <element signature="e#1477#1541#0" expanded="false" />
+                <element signature="e#1576#1704#0" expanded="false" />
+                <element signature="n#!!block;n#request_create_account#0" expanded="false" />
+                <element signature="e#1771#1817#0" expanded="false" />
+                <element signature="n#!!block;n#received_create_account#0" expanded="false" />
+                <element signature="e#1881#1980#0" expanded="false" />
+                <element signature="n#!!block;n#fail_create_account#0" expanded="false" />
+                <element signature="e#2036#2079#0" expanded="false" />
+                <element signature="n#!!block;n#login#0" expanded="false" />
+                <element signature="e#2151#3057#0" expanded="false" />
+                <element signature="e#2208#2266#0" expanded="false" />
+                <element signature="e#2418#2632#0" expanded="false" />
+                <element signature="e#2469#2582#0" expanded="false" />
+                <element signature="e#2691#2920#0" expanded="false" />
+                <element signature="e#2786#2849#0" expanded="false" />
+                <element signature="e#2855#2910#0" expanded="false" />
+                <element signature="e#2939#3049#0" expanded="false" />
+                <element signature="n#!!block;n#request_login#0" expanded="false" />
+                <element signature="e#3107#3144#0" expanded="false" />
+                <element signature="n#!!block;n#received_login#0" expanded="false" />
+                <element signature="e#3199#3289#0" expanded="false" />
+                <element signature="n#!!block;n#fail_login#0" expanded="false" />
+                <element signature="e#3337#3371#0" expanded="false" />
+                <element signature="n#!!block;n#getMessages#0" expanded="false" />
+                <element signature="e#3440#4173#0" expanded="false" />
+                <element signature="e#3575#3701#0" expanded="false" />
+                <element signature="e#3625#3691#0" expanded="false" />
+                <element signature="e#3760#4015#0" expanded="false" />
+                <element signature="e#3867#3937#0" expanded="false" />
+                <element signature="e#3943#4005#0" expanded="false" />
+                <element signature="e#4040#4165#0" expanded="false" />
+                <element signature="n#!!block;n#request_get_messages#0" expanded="false" />
+                <element signature="e#4230#4274#0" expanded="false" />
+                <element signature="e#4348#4422#0" expanded="false" />
+                <element signature="n#!!block;n#fail_get_messages#0" expanded="false" />
+                <element signature="e#4604#4645#0" expanded="false" />
+                <element signature="n#!!block;n#writeMessage#0" expanded="false" />
+                <element signature="e#4722#5707#0" expanded="false" />
+                <element signature="e#4787#4829#0" expanded="false" />
+                <element signature="e#4987#5253#0" expanded="false" />
+                <element signature="e#5038#5203#0" expanded="false" />
+                <element signature="e#5312#5562#0" expanded="false" />
+                <element signature="e#5412#5483#0" expanded="false" />
+                <element signature="e#5489#5552#0" expanded="false" />
+                <element signature="e#5581#5699#0" expanded="false" />
+                <element signature="n#!!block;n#request_write_message#0" expanded="false" />
+                <element signature="e#5765#5810#0" expanded="false" />
+                <element signature="n#!!block;n#received_write_message#0" expanded="false" />
+                <element signature="e#5870#5918#0" expanded="false" />
+                <element signature="n#!!block;n#fail_write_message#0" expanded="false" />
+                <element signature="e#5973#6015#0" expanded="false" />
+                <element signature="n#!!block;n#deleteMessage#0" expanded="false" />
+                <element signature="e#6096#6884#0" expanded="false" />
+                <element signature="e#6245#6374#0" expanded="false" />
+                <element signature="e#6298#6364#0" expanded="false" />
+                <element signature="e#6393#6729#0" expanded="false" />
+                <element signature="e#6514#6649#0" expanded="false" />
+                <element signature="e#6655#6719#0" expanded="false" />
+                <element signature="e#6748#6876#0" expanded="false" />
+                <element signature="n#!!block;n#request_delete_message#0" expanded="false" />
+                <element signature="e#6943#6989#0" expanded="false" />
+                <element signature="n#!!block;n#received_delete_message#0" expanded="false" />
+                <element signature="e#7057#7122#0" expanded="false" />
+                <element signature="n#!!block;n#fail_delete_message#0" expanded="false" />
+                <element signature="e#7178#7221#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSX" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jsS</find>
+      <find>GET</find>
+      <find>write</find>
+      <find>messy</find>
+      <find>us</find>
+      <find>use</find>
+      <find>user</find>
+      <find>user-nlo</find>
+      <find>user-nl</find>
+      <find>user-n</find>
+      <find>user-</find>
+      <find>user-b</find>
+      <find>user-bl</find>
+      <find>user-blo</find>
+      <find>user-block</find>
+      <find>a</find>
+      <find>actionC</find>
+      <find>actionCr</find>
+      <find>actionCre</find>
+      <find>i</find>
+      <find>imp</find>
+      <find>export</find>
+      <find>import</find>
+      <find>co</find>
+      <find>consol</find>
+      <find>console</find>
+      <find>console.log</find>
+      <find>console.log(</find>
+      <find>props.parent.messageEdit</find>
+      <find>messages</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Display</replace>
+      <replace>json</replace>
+      <replace>};</replace>
+      <replace>WRITE</replace>
+      <replace>delete</replace>
+      <replace>const</replace>
+      <replace>input</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/react-redux-starter-kit</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/react-redux-starter-kit" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/client/actions/actionCreators.js" />
+        <option value="$PROJECT_DIR$/client/reducers/login.js" />
+        <option value="$PROJECT_DIR$/client/messy-app.js" />
+        <option value="$PROJECT_DIR$/client/components/MessageDisplay.js" />
+        <option value="$PROJECT_DIR$/client/components/Main.js" />
+        <option value="$PROJECT_DIR$/client/components/Login.js" />
+        <option value="$PROJECT_DIR$/client/components/ListMessages.js" />
+        <option value="$PROJECT_DIR$/resources/SASS/app.scss" />
+        <option value="$PROJECT_DIR$/tests/actions/actionCreators.spec.js" />
+        <option value="$PROJECT_DIR$/webpack.config.dev.js" />
+        <option value="$PROJECT_DIR$/webpack.config.base.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/webpack.config.prod.js" />
+        <option value="$PROJECT_DIR$/server/main.js" />
+        <option value="$PROJECT_DIR$/bin/compile.js" />
+        <option value="$PROJECT_DIR$/bin/dev-server.js" />
+        <option value="$PROJECT_DIR$/config/project.config.js" />
+        <option value="$PROJECT_DIR$/config/webpack.config.js" />
+        <option value="$PROJECT_DIR$/config/karma.config.js" />
+        <option value="$PROJECT_DIR$/config/environments.config.js" />
+        <option value="$PROJECT_DIR$/react-redux-starter-kit/config/webpack.config.js" />
+        <option value="$PROJECT_DIR$/react-redux-sass-boilerplate/webpack.config.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/scripts/index.js" />
+        <option value="$PROJECT_DIR$/src/scripts/components/App.js" />
+        <option value="$PROJECT_DIR$/bobo.js" />
+        <option value="$PROJECT_DIR$/src/scss/font-awesome/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/js/reducers/login.js" />
+        <option value="$PROJECT_DIR$/src/js/components/User.js" />
+        <option value="$PROJECT_DIR$/src/js/actions/createAccountAction.js" />
+        <option value="$PROJECT_DIR$/src/js/actions/loginAction.js" />
+        <option value="$PROJECT_DIR$/src/js/actions/getMessageAction.js" />
+        <option value="$PROJECT_DIR$/src/js/actions/deleteMessageAction.js" />
+        <option value="$PROJECT_DIR$/src/js/logger.js" />
+        <option value="$PROJECT_DIR$/src/js/actions/writeMessageAction.js" />
+        <option value="$PROJECT_DIR$/src/js/reducers/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/js/index.js" />
+        <option value="$PROJECT_DIR$/src/js/components/MessageDisplay.js" />
+        <option value="$PROJECT_DIR$/src/js/components/Login.js" />
+        <option value="$PROJECT_DIR$/src/js/components/ListMessages.js" />
+        <option value="$PROJECT_DIR$/src/scss/app.scss" />
+        <option value="$PROJECT_DIR$/src/js/components/CreateAccount.js" />
+        <option value="$PROJECT_DIR$/src/js/reducers/message.js" />
+        <option value="$PROJECT_DIR$/src/js/components/Main.js" />
+        <option value="$PROJECT_DIR$/src/js/components/App.js" />
+        <option value="$PROJECT_DIR$/src/js/actions/actionCreators.js" />
+        <option value="$PROJECT_DIR$/src/js/components/MessageEdit.js" />
+        <option value="$PROJECT_DIR$/src/js/store.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1366" />
+    <option name="y" value="-1" />
+    <option name="width" value="1920" />
+    <option name="height" value="1081" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messy-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messy-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messy-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messy-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messy-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messy-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messy-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messy-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reducers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messy-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messy-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messy-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messy-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/client/components" />
+      <recent name="$PROJECT_DIR$/client/reducers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/styles" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d21c2c0-c18e-46ad-9d6f-3d33414ac77b" name="Default" comment="" />
+      <created>1493729203977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1493729203977</updated>
+      <workItem from="1493729205407" duration="204000" />
+      <workItem from="1493729723297" duration="10382000" />
+      <workItem from="1493792337379" duration="635000" />
+      <workItem from="1493817563012" duration="25000" />
+      <workItem from="1494239627569" duration="607000" />
+      <workItem from="1494328154046" duration="15497000" />
+      <workItem from="1494345743336" duration="1645000" />
+      <workItem from="1494348819662" duration="5634000" />
+      <workItem from="1494398895979" duration="590000" />
+      <workItem from="1494401866997" duration="26138000" />
+      <workItem from="1494432147669" duration="1674000" />
+      <workItem from="1494436210525" duration="5898000" />
+      <workItem from="1494507783893" duration="1952000" />
+      <workItem from="1494581356716" duration="2188000" />
+      <workItem from="1494586780729" duration="3305000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="76374000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1366" y="-1" width="1920" height="1081" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17693523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37809917" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3789308" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/react-redux-universal-hot-example/webpack/dev.config.js" />
+    <entry file="file://$PROJECT_DIR$/react-redux-universal-hot-example/src/theme/bootstrap.config.js" />
+    <entry file="file://$PROJECT_DIR$/dev-server.js" />
+    <entry file="file://$PROJECT_DIR$/react-redux-sass-boilerplate/package.json" />
+    <entry file="file://$PROJECT_DIR$/react-redux-sass-boilerplate/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-redux-sass-boilerplate/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/react-redux-sass-boilerplate/src/styles/index.scss" />
+    <entry file="file://$PROJECT_DIR$/react-redux-sass-boilerplate/src/styles/reset.scss" />
+    <entry file="file://$PROJECT_DIR$/react-redux-webpack2-boilerplate/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/react-redux-sass-boilerplate/src/styles/shared.scss" />
+    <entry file="file://$PROJECT_DIR$/react-redux-webpack2-boilerplate/source/js/components/Global/Menu.jsx" />
+    <entry file="file://$PROJECT_DIR$/react-redux-webpack2-boilerplate/.babelrc" />
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-redux-webpack2-boilerplate/package.json" />
+    <entry file="file://$PROJECT_DIR$/react-redux-webpack2-boilerplate/source/index.html" />
+    <entry file="file://$PROJECT_DIR$/react-redux-webpack2-boilerplate/source/scss/app.scss" />
+    <entry file="file://$PROJECT_DIR$/react-redux-webpack2-boilerplate/source/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/bobo.js" />
+    <entry file="file://$PROJECT_DIR$/src/scss/font-awesome/scss/_icons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11578">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/font-awesome/scss/_core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/font-awesome/scss/_path.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/font-awesome/scss/font-awesome.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/font-awesome/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="159" column="33" lean-forward="false" selection-start-line="159" selection-start-column="33" selection-end-line="159" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="2" lean-forward="false" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/actions/loginAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/actions/getMessageAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/actions/deleteMessageAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/logger.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-redux-notification/src/components/notifications_container.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-redux-notification/src/components/single_notification.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/actions/createAccountAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/actions/writeMessageAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="847">
+          <caret line="216" column="5" lean-forward="true" selection-start-line="216" selection-start-column="5" selection-end-line="216" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/ListMessages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/MessageDisplay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="110" lean-forward="false" selection-start-line="29" selection-start-column="110" selection-end-line="29" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="80" lean-forward="true" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/reducers/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/reducers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="18" lean-forward="false" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#411#439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/CreateAccount.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/MessageEdit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <marker date="1494589853024" expanded="true" signature="634:670" ph="&lt;div/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="85" lean-forward="false" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
+          <folding>
+            <marker date="1494589206404" expanded="true" signature="576:662" ph="{...}" />
+            <marker date="1494589206404" expanded="true" signature="1246:1290" ph="&lt;h1/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/actions/actionCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="170" column="16" lean-forward="false" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#390#0" expanded="false" />
+            <element signature="n#!!block;n#autoConnect#0" expanded="false" />
+            <element signature="e#504#570#0" expanded="false" />
+            <element signature="n#!!block;n#logout#0" expanded="false" />
+            <element signature="e#613#643#0" expanded="false" />
+            <element signature="n#!!block;n#createAccount#0" expanded="false" />
+            <element signature="e#729#1712#0" expanded="false" />
+            <element signature="e#795#869#0" expanded="false" />
+            <element signature="e#1022#1236#0" expanded="false" />
+            <element signature="e#1073#1186#0" expanded="false" />
+            <element signature="e#1295#1551#0" expanded="false" />
+            <element signature="e#1399#1471#0" expanded="false" />
+            <element signature="e#1477#1541#0" expanded="false" />
+            <element signature="e#1576#1704#0" expanded="false" />
+            <element signature="n#!!block;n#request_create_account#0" expanded="false" />
+            <element signature="e#1771#1817#0" expanded="false" />
+            <element signature="n#!!block;n#received_create_account#0" expanded="false" />
+            <element signature="e#1881#1980#0" expanded="false" />
+            <element signature="n#!!block;n#fail_create_account#0" expanded="false" />
+            <element signature="e#2036#2079#0" expanded="false" />
+            <element signature="n#!!block;n#login#0" expanded="false" />
+            <element signature="e#2151#3057#0" expanded="false" />
+            <element signature="e#2208#2266#0" expanded="false" />
+            <element signature="e#2418#2632#0" expanded="false" />
+            <element signature="e#2469#2582#0" expanded="false" />
+            <element signature="e#2691#2920#0" expanded="false" />
+            <element signature="e#2786#2849#0" expanded="false" />
+            <element signature="e#2855#2910#0" expanded="false" />
+            <element signature="e#2939#3049#0" expanded="false" />
+            <element signature="n#!!block;n#request_login#0" expanded="false" />
+            <element signature="e#3107#3144#0" expanded="false" />
+            <element signature="n#!!block;n#received_login#0" expanded="false" />
+            <element signature="e#3199#3289#0" expanded="false" />
+            <element signature="n#!!block;n#fail_login#0" expanded="false" />
+            <element signature="e#3337#3371#0" expanded="false" />
+            <element signature="n#!!block;n#getMessages#0" expanded="false" />
+            <element signature="e#3440#4173#0" expanded="false" />
+            <element signature="e#3575#3701#0" expanded="false" />
+            <element signature="e#3625#3691#0" expanded="false" />
+            <element signature="e#3760#4015#0" expanded="false" />
+            <element signature="e#3867#3937#0" expanded="false" />
+            <element signature="e#3943#4005#0" expanded="false" />
+            <element signature="e#4040#4165#0" expanded="false" />
+            <element signature="n#!!block;n#request_get_messages#0" expanded="false" />
+            <element signature="e#4230#4274#0" expanded="false" />
+            <element signature="e#4348#4422#0" expanded="false" />
+            <element signature="n#!!block;n#fail_get_messages#0" expanded="false" />
+            <element signature="e#4604#4645#0" expanded="false" />
+            <element signature="n#!!block;n#writeMessage#0" expanded="false" />
+            <element signature="e#4722#5707#0" expanded="false" />
+            <element signature="e#4787#4829#0" expanded="false" />
+            <element signature="e#4987#5253#0" expanded="false" />
+            <element signature="e#5038#5203#0" expanded="false" />
+            <element signature="e#5312#5562#0" expanded="false" />
+            <element signature="e#5412#5483#0" expanded="false" />
+            <element signature="e#5489#5552#0" expanded="false" />
+            <element signature="e#5581#5699#0" expanded="false" />
+            <element signature="n#!!block;n#request_write_message#0" expanded="false" />
+            <element signature="e#5765#5810#0" expanded="false" />
+            <element signature="n#!!block;n#received_write_message#0" expanded="false" />
+            <element signature="e#5870#5918#0" expanded="false" />
+            <element signature="n#!!block;n#fail_write_message#0" expanded="false" />
+            <element signature="e#5973#6015#0" expanded="false" />
+            <element signature="n#!!block;n#deleteMessage#0" expanded="false" />
+            <element signature="e#6096#6884#0" expanded="false" />
+            <element signature="e#6245#6374#0" expanded="false" />
+            <element signature="e#6298#6364#0" expanded="false" />
+            <element signature="e#6393#6729#0" expanded="false" />
+            <element signature="e#6514#6649#0" expanded="false" />
+            <element signature="e#6655#6719#0" expanded="false" />
+            <element signature="e#6748#6876#0" expanded="false" />
+            <element signature="n#!!block;n#request_delete_message#0" expanded="false" />
+            <element signature="e#6943#6989#0" expanded="false" />
+            <element signature="n#!!block;n#received_delete_message#0" expanded="false" />
+            <element signature="e#7057#7122#0" expanded="false" />
+            <element signature="n#!!block;n#fail_delete_message#0" expanded="false" />
+            <element signature="e#7178#7221#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="53" lean-forward="true" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

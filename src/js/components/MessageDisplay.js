@@ -2,16 +2,14 @@ import React from 'react';
 import User from './User';
 
 const MessageDisplay = (props) => {
-        let deleteBlock = null;
+        let deleteBlock = '';
 
         const deleteMessage = () => {
-            props.deleteMessage(props.key, props.parent.token);
+            props.parent.deleteMessage(props.id, props.parent.token);
         };
 
-        console.log(props.deletable)
-
         if (props.deletable) {
-            deleteBlock = <a onClick={deleteMessage}><i className="fa fa-times"></i></a>;
+            deleteBlock = <a onClick={deleteMessage}><i className="fa fa-times"> </i></a>;
         }
 
         return (

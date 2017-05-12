@@ -17,16 +17,24 @@ const CreateAccount = (props) => {
 
     return (
         <form onSubmit={submit} className="user-form">
-            <label>Login : </label>
-            <input type="text" id="login"
-                   onChange={e => changeValue('login', e.target.value)}/><br/>
-            <label>Password : </label>
-            <input type="password" id="password"
-                   onChange={e => changeValue('password', e.target.value)}/><br/>
-            <label>Url image : </label>
-            <input type="text" id="image"
-                   onChange={e => changeValue('image', e.target.value)}/><br/>
-            <button type="submit">Login</button>
+            <div className="form-group">
+                <label>Login : </label>
+                <input type="text" id="login"
+                       onChange={e => changeValue('login', e.target.value)}/>
+            </div>
+            <div className="form-group">
+                <label>Password : </label>
+                <input type="password" id="password"
+                       onChange={e => changeValue('password', e.target.value)}/>
+            </div>
+            <div className="form-group">
+                <label>Url image : </label>
+                <input type="text" id="image"
+                       onChange={e => changeValue('image', e.target.value)}/>
+            </div>
+            <div className="form-group">
+                <button type="submit">Create</button>
+            </div>
         </form>
     );
 };

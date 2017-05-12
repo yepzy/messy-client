@@ -21,6 +21,13 @@ export function autoConnect (token,user) {
         user
     }
 }
+
+export function logout () {
+    return {
+        type: 'LOGOUT'
+    };
+}
+
 export function createAccount (name, password, image) {
     return (dispatch) => {
         dispatch(request_create_account());
@@ -114,15 +121,10 @@ export function received_login (data) {
         user: data.user
     };
 }
+
 export function fail_login () {
     return {
         type: 'FAIL_LOGIN'
-    };
-}
-
-export function logout () {
-    return {
-        type: 'LOGOUT'
     };
 }
 
@@ -163,7 +165,7 @@ export function received_get_messages (data) {
         return msg;
     });
 
-    let messages = _.sortBy(data,'date');
+    let messages = _.orderBy(data,'date','desc');
     return {
         type: 'RECEIVED_GET_MESSAGES',
         messages
@@ -207,8 +209,7 @@ export function writeMessage (message,token) {
         });
     };
 }
-
-export function request_write_message (message) {
+export function request_write_message () {
     return {
         type: 'REQUEST_WRITE_MESSAGE'
     };
@@ -232,20 +233,16 @@ export function deleteMessage (id_message,token) {
 
         let url = 'http://tpiut2017.cleverapps.io/u/timeline/'+id_message;
 
-        console.log('ACTION | DELETE MESSAGE -> data => ', data);
-
         return fetch(url, {
             method: 'DELETE',
             headers: {
-                'Content-type': 'application/json',
-                'Content-length': data.length,
                 'Authorization': 'Bearer:' + token
-            },
-            body: JSON.stringify(data)
+            }
         }).then(response => {
-            console.log('ACTION | DELETE MESSAGE -> response => ', data);
+            console.log('ACTION | DELETE MESSAGE -> response => ', response);
             if (response.status === 204) {
                 dispatch(received_delete_message('Messy has been send'));
+                dispatch(getMessages(token));
             } else {
                 dispatch(fail_delete_message());
             }
@@ -255,14 +252,12 @@ export function deleteMessage (id_message,token) {
         });
     };
 }
-
 export function request_delete_message () {
     return {
         type: 'REQUEST_DELETE_MESSAGE'
     };
 
 }
-
 export function received_delete_message (message) {
     return {
         type: 'RECEIVED_DELETE_MESSAGE',
@@ -270,7 +265,6 @@ export function received_delete_message (message) {
 
     };
 }
-
 export function fail_delete_message () {
     return {
         type: 'FAIL_DELETE_MESSAGE'

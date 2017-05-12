@@ -13,7 +13,9 @@ import thunk from 'redux-thunk';
  */
 
 const defaultState = {
-    // messages:[]
+     message : {
+         messageEdit:''
+     }
 };
 
 const enhancers = compose(

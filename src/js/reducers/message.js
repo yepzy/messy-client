@@ -18,7 +18,7 @@ function message (state = [], action) {
             break;
         case 'RECEIVED_WRITE_MESSAGE' :
             console.log('ACTION | WRITE MESSAGE RECEIVED ***');
-            return state;
+            return Object.assign({}, ...state, {messageEdit: ''});
             break;
         case 'FAIL_WRITE_MESSAGE' :
             console.log('ACTION | WRITE MESSAGE FAIL ***');

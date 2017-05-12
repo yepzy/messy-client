@@ -10,20 +10,6 @@ import * as actionCreators from '../actions/actionCreators';
 
 import Main from './Main';
 
-/*
- Mapping
-
- This is where the magic of redux comes in.
-
- We need a way to make
- 1. our state (our data)
- 2. our 'dispatch' functions
- available to the <Main /> component.
-
- We will surface state and functions via props (this.props.whatever)
-
- */
-
 
 /*
  Here we specify which state needs to be made available to the component
@@ -35,6 +21,7 @@ function mapStateToProps (state) {
         token: state.login.token,
         user: state.login.user,
         messages: state.message.messages,
+        messageEdit: state.message.messageEdit,
     };
 }
 

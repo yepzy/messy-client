@@ -1,12 +1,14 @@
-# Learn Redux
+# Messy Client
 
-A simple React + Redux implementation. This will be turned into a free video series once the app is totally fleshed out.
+#### Study project
+
+A React + Redux application of chatting, witn interaction with an API
 
 ## Running
 
 First `npm install` to grab all the necessary dependencies. 
 
-Then run `npm start` and open <localhost:7770> in your browser.
+Then run `npm start` and open <localhost:3000> in your browser.
 
 ## Production Build
 

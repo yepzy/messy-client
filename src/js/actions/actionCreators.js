@@ -161,11 +161,15 @@ export function request_get_messages () {
 }
 export function received_get_messages (data) {
     _.map(data, msg => {
-        msg.date = moment(msg.date).fromNow();
+        msg.date = moment(msg.date).valueOf();
         return msg;
     });
 
     let messages = _.orderBy(data,'date','desc');
+    _.map(messages, msg => {
+        msg.date = moment(msg.date).fromNow();
+        return msg;
+    });
     return {
         type: 'RECEIVED_GET_MESSAGES',
         messages

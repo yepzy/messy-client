@@ -7,6 +7,10 @@ const CreateAccount = (props) => {
         image: '',
     };
 
+    if(props.token){
+        props.router.push('/messages');
+    }
+
     const submit = (e) => {
         e.preventDefault();
         props.createAccount(values.login, values.password, values.image);

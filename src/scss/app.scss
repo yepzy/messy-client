@@ -124,6 +124,7 @@ body {
 
           & > .message {
             position: relative;
+            display: flex;
 
             & > .user-block {
               width: 110px;
@@ -145,9 +146,12 @@ body {
             }
 
             & > .content-block {
+              flex: 1;
+              display: flex;
+              flex-direction: column;
 
               & > p {
-
+                flex: 1;
               }
 
               & > .delete-block {
@@ -156,16 +160,17 @@ body {
                 right: 10px;
                 background: transparent;
                 border-radius: 5px;
-                color: white;
+                color: #2980b9;
                 padding: 3px;
 
                 &:hover {
                   background: white;
-                  color: cadetblue;
                 }
               }
 
               & > .date-block {
+                text-align: right;
+                color: #2980b9;
 
               }
             }
@@ -181,18 +186,17 @@ body {
             & > input {
               height: 50px;
               flex: 1;
+              font-size: 1em;
             }
 
             & > button {
               height: 50px;
               width: 50px;
               border: none;
-              & > a {
-                background: white;
+              background: white;
 
-                &:hover {
-                  background: lightcyan;
-                }
+              &:hover {
+                background: #2980b9;
               }
             }
           }
@@ -208,6 +212,41 @@ body {
       }
     }
   }
+
+  ::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #2980b9;
+    border: 0px solid #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2980b9;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #2980b9;
+  }
+  ::-webkit-scrollbar-track {
+    background: #5f9ea0;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #5f9ea0;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #5f9ea0;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
 }
 
 @media screen and (max-width: 800px) {

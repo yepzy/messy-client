@@ -1,4 +1,5 @@
 import React from 'react';
+import Notification from './Notification';
 import { Link } from 'react-router';
 
 const Main = (props) => {
@@ -6,8 +7,8 @@ const Main = (props) => {
     let menu = [];
     let login_status = '';
 
-    if (!props.token && sessionStorage.getItem('token') && sessionStorage.getItem('user')) {
-        props.autoConnect(sessionStorage.getItem('token'), sessionStorage.getItem('user'));
+    if (_.isUndefined(props.token) && sessionStorage.getItem('token') && sessionStorage.getItem('user')) {
+        props.autoConnect(sessionStorage.getItem('token'), JSON.parse(sessionStorage.getItem('user')));
     }
 
     const logout = (e) => {
@@ -17,12 +18,12 @@ const Main = (props) => {
     };
     const refresh = (e) => {
         e.preventDefault();
-        props.getMessages(props.token);
+        props.getMessys(props.token);
     };
 
     if (props.token) {
         menu.push(<li key="menu-"><a onClick={refresh}><i className="fa fa-refresh"> </i> </a></li>);
-        menu.push(<li key="menu-0"><Link to="/messages">List of messy</Link></li>);
+        menu.push(<li key="menu-0"><Link to="/messys">List of messy</Link></li>);
         menu.push(<li key="menu-1">
             <a onClick={logout}>Logout</a>
         </li>);
@@ -42,6 +43,8 @@ const Main = (props) => {
                     {menu}
                 </ul>
             </nav>
+
+            <Notification parent={props}/>
 
             { React.cloneElement(props.children, props) }
         </div>

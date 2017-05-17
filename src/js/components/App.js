@@ -10,7 +10,6 @@ import * as actionCreators from '../actions/actionCreators';
 
 import Main from './Main';
 
-
 /*
  Here we specify which state needs to be made available to the component
  our state.posts and state.comments will be available via this.props.posts and this.props.comments
@@ -20,8 +19,18 @@ function mapStateToProps (state) {
     return {
         token: state.login.token,
         user: state.login.user,
-        messages: state.message.messages,
-        messageEdit: state.message.messageEdit,
+        messys: state.messy.messys,
+        messyEdit: state.messy.messyEdit,
+        loginNotif: {
+            'login': state.login.notif_login,
+            'create': state.login.notif_create,
+            'logout': state.login.notif_logout
+        },
+        messyNotif: {
+            'fetch': state.messy.notif_fetch,
+            'send': state.messy.notif_send,
+            'delete': state.messy.notif_delete
+        },
     };
 }
 

@@ -1,6 +1,6 @@
-import {createStore, applyMiddleware, compose} from 'redux';
-import {syncHistoryWithStore} from 'react-router-redux';
-import {browserHistory} from 'react-router';
+import { createStore, applyMiddleware, compose } from 'redux';
+import { syncHistoryWithStore } from 'react-router-redux';
+import { browserHistory } from 'react-router';
 import rootReducer from './reducers/index';
 import thunk from 'redux-thunk';
 
@@ -13,9 +13,38 @@ import thunk from 'redux-thunk';
  */
 
 const defaultState = {
-     message : {
-         messageEdit:''
-     }
+    login: {
+        notif_login: {
+            inProgress: false,
+            success: false,
+            fail: false,
+        },
+        notif_logout: false,
+        notif_create: {
+            inProgress: false,
+            success: false,
+            fail: false,
+        }
+    },
+    messy: {
+        messyEdit: '',
+        messys: [],
+        notif_fetch: {
+            inProgress: false,
+            success: false,
+            fail: false,
+        },
+        notif_send: {
+            inProgress: false,
+            success: false,
+            fail: false,
+        },
+        notif_delete: {
+            inProgress: false,
+            success: false,
+            fail: false,
+        },
+    }
 };
 
 const enhancers = compose(

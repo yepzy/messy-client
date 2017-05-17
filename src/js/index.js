@@ -17,7 +17,7 @@ import '../scss/app.scss';
 /* Import our data store */
 import store, { history } from './store';
 import CreateAccount from './components/CreateAccount';
-import ListMessages from './components/ListMessages';
+import ListMessys from './components/ListMessys';
 import Login from './components/Login';
 
 /*
@@ -35,7 +35,7 @@ function MainRouting (props) {
                 <Route path="/create" component={CreateAccount}> </Route>
                 <Route path="/sign-in" component={Login}> </Route>
                 <Route path="/sign-up" component={CreateAccount}> </Route>
-                <Route path="/messages" component={ListMessages}> </Route>
+                <Route path="/messys" component={ListMessys}> </Route>
             </Route>
         </Router>
     </Provider>;

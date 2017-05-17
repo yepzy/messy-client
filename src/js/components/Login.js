@@ -7,7 +7,8 @@ const Login = (props) => {
     };
 
     if(props.token){
-        props.router.push('/messages');
+        console.log('push /messys')
+        props.router.push('/messys');
     }
 
     const submit = (e) => {
@@ -23,7 +24,7 @@ const Login = (props) => {
         <form onSubmit={submit} className="user-form">
             <div className="form-group">
                 <label>Login : </label>
-                <input type="text" id="login" onChange={e => changeValue('login', e.target.value)}/>
+                <input type="text" id="login" onChange={e => changeValue('login', e.target.value)} autoComplete="off"/>
             </div>
             <div className="form-group">
                 <label>Password : </label>

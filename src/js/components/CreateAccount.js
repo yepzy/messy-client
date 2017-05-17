@@ -8,7 +8,7 @@ const CreateAccount = (props) => {
     };
 
     if(props.token){
-        props.router.push('/messages');
+        props.router.push('/messys');
     }
 
     const submit = (e) => {
@@ -24,7 +24,7 @@ const CreateAccount = (props) => {
             <div className="form-group">
                 <label>Login : </label>
                 <input type="text" id="login"
-                       onChange={e => changeValue('login', e.target.value)}/>
+                       onChange={e => changeValue('login', e.target.value)} autoComplete="off"/>
             </div>
             <div className="form-group">
                 <label>Password : </label>
@@ -34,7 +34,7 @@ const CreateAccount = (props) => {
             <div className="form-group">
                 <label>Url image : </label>
                 <input type="text" id="image"
-                       onChange={e => changeValue('image', e.target.value)}/>
+                       onChange={e => changeValue('image', e.target.value)} autoComplete="off"/>
             </div>
             <div className="form-group">
                 <button type="submit">Create</button>

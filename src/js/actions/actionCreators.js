@@ -14,17 +14,28 @@
 const _ = require('lodash');
 import moment from 'moment';
 
-export function autoConnect (token,user) {
-    return {
-        type : 'AUTO_CONNECT',
-        token,
-        user
-    }
+const timeoutHideNotif = (dispatch) => {
+    setTimeout(() => {
+        dispatch({type: 'HIDE_NOTIFICATION_LOGIN'});
+        dispatch({type: 'HIDE_NOTIFICATION_MESSY'});
+    }, 5000);
+};
+
+export function autoConnect (token, user) {
+    return (dispatch) => {
+        dispatch({
+            type: 'AUTO_CONNECT',
+            token,
+            user
+        });
+        timeoutHideNotif(dispatch);
+    };
 }
 
 export function logout () {
-    return {
-        type: 'LOGOUT'
+    return (dispatch) => {
+        dispatch({type: 'LOGOUT'});
+        timeoutHideNotif(dispatch);
     };
 }
 
@@ -53,9 +64,11 @@ export function createAccount (name, password, image) {
             } else {
                 dispatch(fail_create_account());
             }
+            timeoutHideNotif(dispatch);
         }).catch(function (error) {
             console.log('ACTION | CREATE_ACCOUNT -> error => ', error);
             dispatch(fail_create_account());
+            timeoutHideNotif(dispatch);
         });
     };
 }
@@ -103,9 +116,11 @@ export function login (name, password) {
             } else {
                 dispatch(fail_login());
             }
+            timeoutHideNotif(dispatch);
         }).catch((error) => {
             console.log('ACTION | LOGIN -> error => ', error);
             dispatch(fail_login());
+            timeoutHideNotif(dispatch);
         });
     };
 }
@@ -121,17 +136,17 @@ export function received_login (data) {
         user: data.user
     };
 }
-
-export function fail_login () {
+export function fail_login (error) {
     return {
-        type: 'FAIL_LOGIN'
+        type: 'FAIL_LOGIN',
+        error
     };
 }
 
-export function getMessages (token) {
+export function getMessys (token) {
 
     return (dispatch) => {
-        dispatch(request_get_messages());
+        dispatch(request_get_messys());
 
         let url = 'http://tpiut2017.cleverapps.io/u/timeline';
 
@@ -141,52 +156,54 @@ export function getMessages (token) {
                 'Authorization': 'Bearer:' + token
             }
         }).then(response => {return response.json();}).then(data => {
-            console.log('ACTION | GET MESSAGES -> response => ', data);
+            console.log('ACTION | GET MESSY -> response => ', data);
             if (_.isArray(data)) {
-                dispatch(received_get_messages(data));
+                dispatch(received_get_messys(data));
             } else {
-                dispatch(fail_get_messages());
+                dispatch(fail_get_messys());
             }
+            timeoutHideNotif(dispatch);
         }).catch(function (error) {
-            console.log('ACTION | GET MESSAGES -> error => ', error);
-
-            dispatch(fail_get_messages());
+            console.log('ACTION | GET MESSY -> error => ', error);
+            dispatch(fail_get_messys());
+            timeoutHideNotif(dispatch);
         });
     };
 }
-export function request_get_messages () {
+export function request_get_messys () {
     return {
-        type: 'REQUEST_GET_MESSAGES'
+        type: 'REQUEST_GET_MESSY'
     };
 }
-export function received_get_messages (data) {
-    _.map(data, msg => {
-        msg.date = moment(msg.date).valueOf();
-        return msg;
+export function received_get_messys (data) {
+    _.map(data, messy => {
+        messy.date = moment(messy.date).valueOf();
+        return messy;
     });
 
-    let messages = _.orderBy(data,'date','desc');
-    _.map(messages, msg => {
-        msg.date = moment(msg.date).fromNow();
-        return msg;
+    let messys = _.orderBy(data, 'date', 'desc');
+    _.map(messys, messy => {
+        messy.date = moment(messy.date).fromNow();
+        return messy;
     });
     return {
-        type: 'RECEIVED_GET_MESSAGES',
-        messages
+        type: 'RECEIVED_GET_MESSY',
+        messys
     };
 }
-export function fail_get_messages () {
+export function fail_get_messys (error) {
     return {
-        type: 'FAIL_GET_MESSAGES'
+        type: 'FAIL_GET_MESSY',
+        error
     };
 }
 
-export function writeMessage (message,token) {
+export function writeMessy (messy, token) {
     return (dispatch) => {
-        dispatch(request_write_message());
+        dispatch(request_write_messy());
 
         let data = {
-            'message': message
+            'message': messy
         };
         let url = 'http://tpiut2017.cleverapps.io/u/timeline';
 
@@ -203,39 +220,43 @@ export function writeMessage (message,token) {
         }).then(response => {return response.json();}).then(data => {
             console.log('ACTION | WRITE MESSAGE -> response => ', data);
             if (data.id) {
-                dispatch(received_write_message(data));
+                dispatch(received_write_messy(data));
+                dispatch(getMessys(token));
             } else {
-                dispatch(fail_write_message());
+                dispatch(fail_write_messy());
             }
+            timeoutHideNotif(dispatch);
         }).catch((error) => {
             console.log('ACTION | WRITE MESSAGE -> error => ', error);
-            dispatch(fail_login());
+            dispatch(fail_login(error.error));
+            timeoutHideNotif(dispatch);
         });
     };
 }
-export function request_write_message () {
+export function request_write_messy () {
     return {
         type: 'REQUEST_WRITE_MESSAGE'
     };
 
 }
-export function received_write_message () {
+export function received_write_messy () {
     return {
         type: 'RECEIVED_WRITE_MESSAGE',
 
     };
 }
-export function fail_write_message () {
+export function fail_write_messy (error) {
     return {
-        type: 'FAIL_WRITE_MESSAGE'
+        type: 'FAIL_WRITE_MESSAGE',
+        error
     };
 }
 
-export function deleteMessage (id_message,token) {
+export function deleteMessy (id_messy, token) {
     return (dispatch) => {
-        dispatch(request_delete_message());
+        dispatch(request_delete_messy());
 
-        let url = 'http://tpiut2017.cleverapps.io/u/timeline/'+id_message;
+        let url = 'http://tpiut2017.cleverapps.io/u/timeline/' + id_messy;
 
         return fetch(url, {
             method: 'DELETE',
@@ -245,32 +266,36 @@ export function deleteMessage (id_message,token) {
         }).then(response => {
             console.log('ACTION | DELETE MESSAGE -> response => ', response);
             if (response.status === 204) {
-                dispatch(received_delete_message('Messy has been send'));
-                dispatch(getMessages(token));
+                dispatch(received_delete_messy('Messy has been send'));
+                dispatch(getMessys(token));
             } else {
-                dispatch(fail_delete_message());
+                dispatch(fail_delete_messy());
             }
         }).catch((error) => {
             console.log('ACTION | DELETE MESSAGE -> error => ', error);
-            dispatch(fail_delete_message());
+            dispatch(fail_delete_messy());
+            timeoutHideNotif(dispatch);
         });
     };
 }
-export function request_delete_message () {
+export function request_delete_messy () {
     return {
         type: 'REQUEST_DELETE_MESSAGE'
     };
 
 }
-export function received_delete_message (message) {
+export function received_delete_messy (messy) {
     return {
         type: 'RECEIVED_DELETE_MESSAGE',
-        message
+        messy
 
     };
 }
-export function fail_delete_message () {
+export function fail_delete_messy (error) {
     return {
-        type: 'FAIL_DELETE_MESSAGE'
+        type: 'FAIL_DELETE_MESSAGE',
+        error
     };
 }
+
+

@@ -1,7 +1,15 @@
 @import 'font-awesome/scss/font-awesome.scss';
 
+$bg-color: #3498db;
+$bg-btn-color: lighten($bg-color, 10);
+$bg-btn-hover-color: darken($bg-color, 10);
+$blue-txt-color: #2980b9;
+$notif-success-color:#2ecc71;
+$notif-progress-color:#2c3e50;
+$notif-fail-color:#e74c3c;
+
 body {
-  background: cadetblue;
+  background-color: $bg-color;
   font-family: sans-serif;
   height: 100vh;
   overflow-y: hidden;
@@ -25,16 +33,27 @@ body {
         }
       }
 
-      nav > ul > li {
-        display: inline-block;
-        margin: 10px 20px;
-        border-bottom: transparent 2px solid;
-        &:hover {
-          border-color: white;
-        }
-        & > a {
-          color: white;
-          text-decoration: none;
+      nav {
+
+        & > ul {
+
+          & > li {
+            display: inline-block;
+            margin: 10px 20px;
+
+            &:hover {
+              -webkit-box-shadow: inset 5px 5px 5px -5px rgba(0, 0, 0, 1);
+              -moz-box-shadow: inset 5px 5px 5px -5px rgba(0, 0, 0, 1);
+              box-shadow: inset 5px 5px 5px -5px rgba(0, 0, 0, 1);
+            }
+
+            & > a {
+              color: white;
+              text-decoration: none;
+              display: block;
+              padding: 10px;
+            }
+          }
         }
       }
 
@@ -72,62 +91,50 @@ body {
 
         & > button {
           border-radius: 10px;
-          background: white;
-          color: cadetblue;
+          background-color: $bg-btn-color;
+          color: white;
           font-size: 1em;
           padding: 10px 20px;
           box-shadow: none;
+          border: none;
 
           &:hover {
-            background: cadetblue;
-            color: white;
+            background: $bg-btn-hover-color;
+            cursor: pointer;
             box-shadow: none;
           }
         }
       }
 
-      .message {
-        background: lightblue;
-        margin: 10px 5px;
-        border-radius: 5px;
-
-        & > div {
-          display: inline-block;
-        }
-
-        & > .user-block {
-          width: 20%;
-        }
-
-        & > .message-block {
-          width: 75%;
-        }
-
-        & > .delete-block {
-          width: 5%;
-        }
+      .fa-user {
+        color: green;
       }
 
       .user-form {
         flex: 1;
       }
 
-      .block-messages {
+      .block-messys {
         display: flex;
         flex-direction: column;
         overflow-y: hidden;
         height: 100%;
-        & > .list-messages {
+        & > .list-messys {
           flex: 1;
           overflow-y: scroll;
           margin-bottom: 5px;
 
-          & > .message {
+          & > .messy {
+            background: lightblue;
+            margin: 10px 5px;
+            border-radius: 5px;
+            overflow: hidden;
             position: relative;
             display: flex;
 
             & > .user-block {
               width: 110px;
+              background-color: #ecf0f1;
 
               & > .user {
                 margin: 5px 5px auto auto;
@@ -149,9 +156,11 @@ body {
               flex: 1;
               display: flex;
               flex-direction: column;
+              padding-left: 5px;
 
               & > p {
                 flex: 1;
+                color: $bg-color;
               }
 
               & > .delete-block {
@@ -159,44 +168,72 @@ body {
                 top: 10px;
                 right: 10px;
                 background: transparent;
-                border-radius: 5px;
-                color: #2980b9;
-                padding: 3px;
+                & > a {
+                  border-radius: 5px;
+                  color: #2980b9;
+                  padding: 3px;
 
-                &:hover {
-                  background: white;
+                  &:hover {
+                    background: white;
+                  }
                 }
               }
 
               & > .date-block {
                 text-align: right;
-                color: #2980b9;
+                color: $blue-txt-color;
+                padding: 5px;
 
               }
             }
           }
         }
 
+        .own-messy {
+
+          & > .user-block {
+            order: 2;
+          }
+
+          & > .content-block {
+            order: 1;
+
+            & > p {
+              order: 1;
+            }
+
+            & > .date-block {
+              order: 2;
+            }
+          }
+        }
+
         & > .write-form {
           height: 50px;
+          background: white;
 
           & > div {
             display: flex;
+            height: 100%;
 
-            & > input {
-              height: 50px;
+            & > textarea {
+              height: 100%;
+              margin: 0;
               flex: 1;
-              font-size: 1em;
+              font-size: 1.2em;
             }
 
             & > button {
-              height: 50px;
+              height: 100%;
               width: 50px;
+              padding: 0;
+              margin: 0;
               border: none;
-              background: white;
+              background-color: transparent;
 
               &:hover {
-                background: #2980b9;
+                cursor: pointer;
+                background: $bg-btn-color;
               }
             }
           }
@@ -210,41 +247,46 @@ body {
       a:hover {
         cursor: pointer;
       }
+
+      .notification-block {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+        & > div {
+
+          padding: 10px;
+          border-radius: 5px;
+          color: white;
+          margin: 5px auto;
+
+          &.progress{
+            background-color: $notif-progress-color;
+          }
+
+          &.success{
+            background-color: $notif-success-color;
+          }
+
+          &.fail{
+            background-color: $notif-fail-color;
+          }
+
+        }
+      }
     }
+  }
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: white;
   }
 
   ::-webkit-scrollbar {
-    width: 16px;
-    height: 16px;
+    width: 10px;
+    background-color: white;
   }
-  ::-webkit-scrollbar-button {
-    width: 0px;
-    height: 0px;
-  }
+
   ::-webkit-scrollbar-thumb {
-    background: #2980b9;
-    border: 0px solid #ffffff;
-    border-radius: 50px;
-  }
-  ::-webkit-scrollbar-thumb:hover {
-    background: #2980b9;
-  }
-  ::-webkit-scrollbar-thumb:active {
-    background: #2980b9;
-  }
-  ::-webkit-scrollbar-track {
-    background: #5f9ea0;
-    border: 1px solid #ffffff;
-    border-radius: 50px;
-  }
-  ::-webkit-scrollbar-track:hover {
-    background: #5f9ea0;
-  }
-  ::-webkit-scrollbar-track:active {
-    background: #5f9ea0;
-  }
-  ::-webkit-scrollbar-corner {
-    background: transparent;
+    background-color: $bg-btn-color;
   }
 
 }

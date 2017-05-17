@@ -12,9 +12,9 @@ import { combineReducers } from 'redux';
 
 import { routerReducer } from 'react-router-redux'; // we need this for react-router
 import login from './login';
-import message from './message';
+import messy from './messy';
 
 // Combine all our reducers togeher
-const rootReducer = combineReducers({login, message, routing: routerReducer});
+const rootReducer = combineReducers({login, messy, routing: routerReducer});
 
 export default rootReducer;

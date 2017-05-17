@@ -1,19 +1,21 @@
 import React from 'react';
 import User from './User';
 
-const MessageDisplay = (props) => {
+const MessyDisplay = (props) => {
         let deleteBlock = '';
+        let classNames = "messy";
 
-        const deleteMessage = () => {
-            props.parent.deleteMessage(props.id, props.parent.token);
+        const deleteMessy = () => {
+            props.parent.deleteMessy(props.id, props.parent.token);
         };
 
-        if (props.deletable) {
-            deleteBlock = <a onClick={deleteMessage}><i className="fa fa-times"> </i></a>;
+        if (props.isMyMessy) {
+            deleteBlock = <a onClick={deleteMessy}><i className="fa fa-times"> </i></a>;
+            classNames += " own-messy";
         }
 
         return (
-            <div className="message">
+            <div className={classNames}>
                 <div className="user-block">
                     <User name={props.user.name} image={props.user.image}/>
                 </div>
@@ -31,4 +33,4 @@ const MessageDisplay = (props) => {
     }
 ;
 
-export default MessageDisplay;
+export default MessyDisplay;

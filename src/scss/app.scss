@@ -4,9 +4,9 @@ $bg-color: #3498db;
 $bg-btn-color: lighten($bg-color, 10);
 $bg-btn-hover-color: darken($bg-color, 10);
 $blue-txt-color: #2980b9;
-$notif-success-color:#2ecc71;
-$notif-progress-color:#2c3e50;
-$notif-fail-color:#e74c3c;
+$notif-success-color: #2ecc71;
+$notif-progress-color: #2c3e50;
+$notif-fail-color: #e74c3c;
 
 body {
   background-color: $bg-color;
@@ -47,11 +47,19 @@ body {
               box-shadow: inset 5px 5px 5px -5px rgba(0, 0, 0, 1);
             }
 
-            & > a {
+            & > a, & > button {
               color: white;
+              box-shadow: none;
+              border: none;
+              background-color: transparent;
               text-decoration: none;
               display: block;
               padding: 10px;
+              font-size: 1em;
+
+              &:hover {
+                cursor: pointer;
+              }
             }
           }
         }
@@ -168,13 +176,17 @@ body {
                 top: 10px;
                 right: 10px;
                 background: transparent;
-                & > a {
+                & > button {
+                  background: transparent;
+                  box-shadow: none;
+                  border: none;
                   border-radius: 5px;
                   color: #2980b9;
-                  padding: 3px;
+                  padding: 5px;
 
                   &:hover {
                     background: white;
+                    cursor: pointer;
                   }
                 }
               }
@@ -249,9 +261,9 @@ body {
       }
 
       .notification-block {
-          position: absolute;
-          top: 20px;
-          right: 20px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
         & > div {
 
           padding: 10px;
@@ -259,15 +271,15 @@ body {
           color: white;
           margin: 5px auto;
 
-          &.progress{
+          &.progress {
             background-color: $notif-progress-color;
           }
 
-          &.success{
+          &.success {
             background-color: $notif-success-color;
           }
 
-          &.fail{
+          &.fail {
             background-color: $notif-fail-color;
           }
 
@@ -291,7 +303,7 @@ body {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   body {
     #root {
       width: 100%;

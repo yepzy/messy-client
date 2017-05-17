@@ -18,66 +18,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="text_notification.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/utils/text_notification.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Notification.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/Notification.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="165">
+              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
-                <element signature="e#143#199#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="store.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MessyDisplay.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/MessyDisplay.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="store.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#62#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/reducers/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-446">
+              <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListMessys.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/ListMessys.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="219" column="27" lean-forward="false" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
+            <state relative-caret-position="149">
+              <caret line="174" column="35" lean-forward="true" selection-start-line="174" selection-start-column="35" selection-end-line="174" selection-end-column="35" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/components/Login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessyEdit.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/components/MessyEdit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-              <folding>
-                <marker date="1495031826827" expanded="true" signature="737:773" ph="&lt;div/&gt;" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -85,69 +87,38 @@
       <file leaf-file-name="actionCreators.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/actions/actionCreators.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="268" column="71" lean-forward="false" selection-start-line="268" selection-start-column="71" selection-end-line="268" selection-end-column="71" />
+            <state relative-caret-position="45">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <element signature="e#0#390#0" expanded="false" />
-                <element signature="e#1140#1214#0" expanded="false" />
-                <element signature="e#1367#1581#0" expanded="false" />
-                <element signature="e#1418#1531#0" expanded="false" />
-                <element signature="e#1744#1816#0" expanded="false" />
-                <element signature="e#1822#1886#0" expanded="false" />
-                <element signature="n#!!block;n#request_create_account#0" expanded="false" />
-                <element signature="e#2196#2242#0" expanded="false" />
-                <element signature="n#!!block;n#received_create_account#0" expanded="false" />
-                <element signature="e#2306#2405#0" expanded="false" />
-                <element signature="n#!!block;n#fail_create_account#0" expanded="false" />
-                <element signature="e#2461#2504#0" expanded="false" />
-                <element signature="n#!!block;n#login#0" expanded="false" />
-                <element signature="e#2576#3562#0" expanded="false" />
-                <element signature="e#2633#2691#0" expanded="false" />
-                <element signature="e#2843#3057#0" expanded="false" />
-                <element signature="e#2894#3007#0" expanded="false" />
-                <element signature="e#3116#3385#0" expanded="false" />
-                <element signature="e#3211#3274#0" expanded="false" />
-                <element signature="e#3280#3335#0" expanded="false" />
-                <element signature="e#3404#3554#0" expanded="false" />
-                <element signature="n#!!block;n#request_login#0" expanded="false" />
-                <element signature="e#3612#3649#0" expanded="false" />
-                <element signature="n#!!block;n#received_login#0" expanded="false" />
-                <element signature="e#3704#3794#0" expanded="false" />
-                <element signature="n#!!block;n#fail_login#0" expanded="false" />
-                <element signature="e#3846#3895#0" expanded="false" />
-                <element signature="n#!!block;n#getMessys#0" expanded="false" />
-                <element signature="e#3962#4760#0" expanded="false" />
-                <element signature="e#4095#4221#0" expanded="false" />
-                <element signature="e#4145#4211#0" expanded="false" />
-                <element signature="e#4280#4568#0" expanded="false" />
-                <element signature="e#4384#4452#0" expanded="false" />
-                <element signature="e#4458#4518#0" expanded="false" />
-                <element signature="e#4593#4752#0" expanded="false" />
-                <element signature="n#!!block;n#request_get_messys#0" expanded="false" />
-                <element signature="e#4815#4856#0" expanded="false" />
-                <element signature="n#!!block;n#received_get_messys#0" expanded="false" />
-                <element signature="e#4930#5010#0" expanded="false" />
-                <element signature="e#5091#5171#0" expanded="false" />
-                <element signature="e#5185#5243#0" expanded="false" />
-                <element signature="n#!!block;n#fail_get_messys#0" expanded="false" />
-                <element signature="e#5300#5353#0" expanded="false" />
-                <element signature="e#5490#5530#0" expanded="false" />
-                <element signature="n#!!block;n#request_write_messy#0" expanded="false" />
-                <element signature="e#6595#6640#0" expanded="false" />
-                <element signature="n#!!block;n#received_write_messy#0" expanded="false" />
-                <element signature="e#6698#6746#0" expanded="false" />
-                <element signature="n#!!block;n#fail_write_messy#0" expanded="false" />
-                <element signature="e#6804#6861#0" expanded="false" />
-                <element signature="e#7086#7215#0" expanded="false" />
-                <element signature="e#7139#7205#0" expanded="false" />
-                <element signature="e#7492#7554#0" expanded="false" />
-                <element signature="e#7583#7749#0" expanded="false" />
-                <element signature="n#!!block;n#request_delete_messy#0" expanded="false" />
-                <element signature="e#7814#7860#0" expanded="false" />
-                <element signature="n#!!block;n#received_delete_messy#0" expanded="false" />
-                <element signature="e#7924#7987#0" expanded="false" />
-                <element signature="n#!!block;n#fail_delete_messy#0" expanded="false" />
-                <element signature="e#8046#8104#0" expanded="false" />
+                <element signature="e#396#419#0" expanded="true" />
+                <element signature="e#532#692#0" expanded="false" />
+                <element signature="e#553#682#0" expanded="false" />
+                <element signature="e#568#614#0" expanded="false" />
+                <element signature="e#630#676#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotificationFail.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/NotificationFail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,28 +127,8 @@
       <file leaf-file-name="messy.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/reducers/messy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="43" column="63" lean-forward="false" selection-start-line="43" selection-start-column="63" selection-end-line="44" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/reducers/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="72" column="35" lean-forward="false" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/utils/Utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -195,36 +146,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>messages</find>
-      <find>s</find>
-      <find>se</find>
-      <find>set</find>
-      <find>setIt</find>
-      <find>Success</find>
+      <find>router:</find>
+      <find>router:</find>
+      <find>im</find>
+      <find>impor</find>
+      <find>import</find>
+      <find>import</find>
+      <find>nav</find>
+      <find>from</find>
+      <find>i</find>
+      <find>isMess</find>
+      <find>isMes</find>
+      <find>isMe</find>
+      <find>is</find>
+      <find>isMu</find>
+      <find>isM</find>
+      <find>isMy</find>
+      <find>m</find>
       <find>messy</find>
-      <find>me</find>
-      <find>message</find>
-      <find>Message</find>
-      <find>M</find>
-      <find>Msg</find>
-      <find>Messy</find>
-      <find>action.notification</find>
-      <find>,</find>
-      <find>(getState().login.notification)</find>
-      <find>(getState().messy.notification)</find>
-      <find>...state</find>
-      <find>...</find>
-      <find>.text}</find>
-      <find>notif_create</find>
-      <find>g</find>
-      <find>ge</find>
-      <find>get</find>
-      <find>getM</find>
-      <find>getMe</find>
-      <find>getMes</find>
-      <find>getMess</find>
-      <find>getMessy</find>
-      <find>getMessys</find>
+      <find>messyE</find>
+      <find>messyEdd=</find>
+      <find>messyEdd</find>
+      <find>messyEd</find>
+      <find>messyEdit</find>
+      <find>n</find>
+      <find>name</find>
+      <find>N</find>
+      <find>Name</find>
+      <find>l</find>
+      <find>login</find>
+      <find>c</find>
     </findStrings>
     <replaceStrings>
       <replace>Display</replace>
@@ -232,7 +183,6 @@
       <replace>};</replace>
       <replace>WRITE</replace>
       <replace>delete</replace>
-      <replace>const</replace>
       <replace>input</replace>
       <replace>MESSY</replace>
       <replace>messy</replace>
@@ -243,7 +193,13 @@
       <replace>getState().login.notification</replace>
       <replace>,</replace>
       <replace>state</replace>
+      <replace>debug</replace>
+      <replace>'</replace>
       <replace>']</replace>
+      <replace>const</replace>
+      <replace>const</replace>
+      <replace>}&gt;</replace>
+      <replace>= require(</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/react-redux-starter-kit</dir>
@@ -255,10 +211,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/webpack.config.prod.js" />
-        <option value="$PROJECT_DIR$/server/main.js" />
-        <option value="$PROJECT_DIR$/bin/compile.js" />
         <option value="$PROJECT_DIR$/bin/dev-server.js" />
         <option value="$PROJECT_DIR$/config/project.config.js" />
         <option value="$PROJECT_DIR$/config/webpack.config.js" />
@@ -271,41 +223,45 @@
         <option value="$PROJECT_DIR$/src/scripts/components/App.js" />
         <option value="$PROJECT_DIR$/bobo.js" />
         <option value="$PROJECT_DIR$/src/scss/font-awesome/scss/_variables.scss" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/js/components/User.js" />
         <option value="$PROJECT_DIR$/src/js/actions/createAccountAction.js" />
         <option value="$PROJECT_DIR$/src/js/actions/loginAction.js" />
         <option value="$PROJECT_DIR$/src/js/actions/getMessageAction.js" />
         <option value="$PROJECT_DIR$/src/js/actions/deleteMessageAction.js" />
         <option value="$PROJECT_DIR$/src/js/logger.js" />
         <option value="$PROJECT_DIR$/src/js/actions/writeMessageAction.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/js/components/CreateAccount.js" />
         <option value="$PROJECT_DIR$/src/js/components/MessageDisplay.js" />
-        <option value="$PROJECT_DIR$/src/js/index.js" />
         <option value="$PROJECT_DIR$/src/js/components/ListMessages.js" />
         <option value="$PROJECT_DIR$/src/js/components/MessageEdit.js" />
         <option value="$PROJECT_DIR$/src/js/reducers/message.js" />
-        <option value="$PROJECT_DIR$/src/js/components/NotificationSuccess.js" />
-        <option value="$PROJECT_DIR$/src/js/components/NotificationFail.js" />
-        <option value="$PROJECT_DIR$/src/js/components/NotificationInProgress.js" />
         <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/src/js/components/Main.js" />
-        <option value="$PROJECT_DIR$/src/js/components/Login.js" />
-        <option value="$PROJECT_DIR$/src/js/store.js" />
-        <option value="$PROJECT_DIR$/src/js/components/App.js" />
-        <option value="$PROJECT_DIR$/src/js/components/ListMessys.js" />
-        <option value="$PROJECT_DIR$/src/js/utils/text_notification.js" />
         <option value="$PROJECT_DIR$/src/js/reducers/other.js" />
-        <option value="$PROJECT_DIR$/src/js/reducers/index.js" />
-        <option value="$PROJECT_DIR$/src/js/actions/actionCreators.js" />
-        <option value="$PROJECT_DIR$/src/js/reducers/login.js" />
-        <option value="$PROJECT_DIR$/src/js/reducers/messy.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.eslintrc" />
+        <option value="$PROJECT_DIR$/src/js/utils/text_notification.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/js/utils/Utils.js" />
-        <option value="$PROJECT_DIR$/src/js/components/Notification.js" />
+        <option value="$PROJECT_DIR$/src/js/utils/textNotification.js" />
+        <option value="$PROJECT_DIR$/dist/vendor-7271a5258248eb82db6e.js" />
+        <option value="$PROJECT_DIR$/src/js/components/Main.js" />
+        <option value="$PROJECT_DIR$/src/js/index.js" />
+        <option value="$PROJECT_DIR$/src/js/reducers/index.js" />
+        <option value="$PROJECT_DIR$/src/js/components/CreateAccount.js" />
         <option value="$PROJECT_DIR$/src/js/components/MessyEdit.js" />
+        <option value="$PROJECT_DIR$/src/js/components/NotificationInProgress.js" />
+        <option value="$PROJECT_DIR$/src/js/components/NotificationSuccess.js" />
+        <option value="$PROJECT_DIR$/src/js/components/User.js" />
+        <option value="$PROJECT_DIR$/src/js/components/Login.js" />
+        <option value="$PROJECT_DIR$/src/js/components/MessyDisplay.js" />
         <option value="$PROJECT_DIR$/src/scss/app.scss" />
+        <option value="$PROJECT_DIR$/src/js/components/ListMessys.js" />
+        <option value="$PROJECT_DIR$/src/js/actions/actionCreators.js" />
+        <option value="$PROJECT_DIR$/src/js/components/App.js" />
+        <option value="$PROJECT_DIR$/src/js/components/Notification.js" />
+        <option value="$PROJECT_DIR$/src/js/reducers/login.js" />
+        <option value="$PROJECT_DIR$/src/js/components/NotificationFail.js" />
+        <option value="$PROJECT_DIR$/src/js/reducers/messy.js" />
+        <option value="$PROJECT_DIR$/src/js/store.js" />
       </list>
     </option>
   </component>
@@ -326,9 +282,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1920" />
-    <option name="y" value="333" />
+    <option name="y" value="331" />
     <option name="width" value="1366" />
-    <option name="height" value="747" />
+    <option name="height" value="749" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -488,7 +444,8 @@
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -615,12 +572,12 @@
       <workItem from="1494919222703" duration="682000" />
       <workItem from="1494920528191" duration="764000" />
       <workItem from="1494922648048" duration="25881000" />
-      <workItem from="1495008568518" duration="12137000" />
+      <workItem from="1495008568518" duration="29001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120646000" />
+    <option name="totallyTimeSpent" value="137510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,16 +589,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="333" width="1366" height="747" extended-state="6" />
+    <frame x="1920" y="331" width="1366" height="749" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29739776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29739776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41798106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41666666" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -683,15 +641,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-redux-webpack2-boilerplate/source/js/index.js" />
-    <entry file="file://$PROJECT_DIR$/bobo.js" />
-    <entry file="file://$PROJECT_DIR$/src/scss/font-awesome/scss/_icons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11578">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/font-awesome/scss/_core.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -720,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="2" lean-forward="false" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/actions/loginAction.js" />
     <entry file="file://$PROJECT_DIR$/src/js/actions/getMessageAction.js" />
     <entry file="file://$PROJECT_DIR$/src/js/actions/deleteMessageAction.js" />
@@ -734,22 +676,7 @@
     <entry file="file://$PROJECT_DIR$/node_modules/react-redux-notification/src/components/notifications_container.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/react-redux-notification/src/components/single_notification.js" />
     <entry file="file://$PROJECT_DIR$/src/js/actions/createAccountAction.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/actions/writeMessageAction.js" />
-    <entry file="file://$PROJECT_DIR$/src/js/components/User.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="80" lean-forward="true" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -769,102 +696,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/CreateAccount.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="264" column="10" lean-forward="false" selection-start-line="264" selection-start-column="10" selection-end-line="264" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/app-82d423bb396bc219b5a1.js" />
     <entry file="file://$PROJECT_DIR$/dist/app-da33a8bb21a1b50d00e7.js" />
     <entry file="file://$PROJECT_DIR$/dist/vendor-82d423bb396bc219b5a1.js" />
-    <entry file="file://$PROJECT_DIR$/src/js/components/NotificationFail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/NotificationSuccess.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/app-34027596e64b5a1f3703.js" />
     <entry file="file://$PROJECT_DIR$/dist/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="58" lean-forward="true" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/MessyDisplay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/NotificationInProgress.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/ListMessys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/reducers/other.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -873,158 +717,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/reducers/index.js">
+    <entry file="file://$PROJECT_DIR$/dist/app-7271a5258248eb82db6e.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="e#411#439#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="120">
+          <caret line="0" column="930" lean-forward="false" selection-start-line="0" selection-start-column="930" selection-end-line="0" selection-end-column="930" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/Login.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="30">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/utils/text_notification.js">
+    <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/actions/actionCreators.js">
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="268" column="71" lean-forward="false" selection-start-line="268" selection-start-column="71" selection-end-line="268" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#390#0" expanded="false" />
-            <element signature="e#1140#1214#0" expanded="false" />
-            <element signature="e#1367#1581#0" expanded="false" />
-            <element signature="e#1418#1531#0" expanded="false" />
-            <element signature="e#1744#1816#0" expanded="false" />
-            <element signature="e#1822#1886#0" expanded="false" />
-            <element signature="n#!!block;n#request_create_account#0" expanded="false" />
-            <element signature="e#2196#2242#0" expanded="false" />
-            <element signature="n#!!block;n#received_create_account#0" expanded="false" />
-            <element signature="e#2306#2405#0" expanded="false" />
-            <element signature="n#!!block;n#fail_create_account#0" expanded="false" />
-            <element signature="e#2461#2504#0" expanded="false" />
-            <element signature="n#!!block;n#login#0" expanded="false" />
-            <element signature="e#2576#3562#0" expanded="false" />
-            <element signature="e#2633#2691#0" expanded="false" />
-            <element signature="e#2843#3057#0" expanded="false" />
-            <element signature="e#2894#3007#0" expanded="false" />
-            <element signature="e#3116#3385#0" expanded="false" />
-            <element signature="e#3211#3274#0" expanded="false" />
-            <element signature="e#3280#3335#0" expanded="false" />
-            <element signature="e#3404#3554#0" expanded="false" />
-            <element signature="n#!!block;n#request_login#0" expanded="false" />
-            <element signature="e#3612#3649#0" expanded="false" />
-            <element signature="n#!!block;n#received_login#0" expanded="false" />
-            <element signature="e#3704#3794#0" expanded="false" />
-            <element signature="n#!!block;n#fail_login#0" expanded="false" />
-            <element signature="e#3846#3895#0" expanded="false" />
-            <element signature="n#!!block;n#getMessys#0" expanded="false" />
-            <element signature="e#3962#4760#0" expanded="false" />
-            <element signature="e#4095#4221#0" expanded="false" />
-            <element signature="e#4145#4211#0" expanded="false" />
-            <element signature="e#4280#4568#0" expanded="false" />
-            <element signature="e#4384#4452#0" expanded="false" />
-            <element signature="e#4458#4518#0" expanded="false" />
-            <element signature="e#4593#4752#0" expanded="false" />
-            <element signature="n#!!block;n#request_get_messys#0" expanded="false" />
-            <element signature="e#4815#4856#0" expanded="false" />
-            <element signature="n#!!block;n#received_get_messys#0" expanded="false" />
-            <element signature="e#4930#5010#0" expanded="false" />
-            <element signature="e#5091#5171#0" expanded="false" />
-            <element signature="e#5185#5243#0" expanded="false" />
-            <element signature="n#!!block;n#fail_get_messys#0" expanded="false" />
-            <element signature="e#5300#5353#0" expanded="false" />
-            <element signature="e#5490#5530#0" expanded="false" />
-            <element signature="n#!!block;n#request_write_messy#0" expanded="false" />
-            <element signature="e#6595#6640#0" expanded="false" />
-            <element signature="n#!!block;n#received_write_messy#0" expanded="false" />
-            <element signature="e#6698#6746#0" expanded="false" />
-            <element signature="n#!!block;n#fail_write_messy#0" expanded="false" />
-            <element signature="e#6804#6861#0" expanded="false" />
-            <element signature="e#7086#7215#0" expanded="false" />
-            <element signature="e#7139#7205#0" expanded="false" />
-            <element signature="e#7492#7554#0" expanded="false" />
-            <element signature="e#7583#7749#0" expanded="false" />
-            <element signature="n#!!block;n#request_delete_messy#0" expanded="false" />
-            <element signature="e#7814#7860#0" expanded="false" />
-            <element signature="n#!!block;n#received_delete_messy#0" expanded="false" />
-            <element signature="e#7924#7987#0" expanded="false" />
-            <element signature="n#!!block;n#fail_delete_messy#0" expanded="false" />
-            <element signature="e#8046#8104#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/reducers/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="72" column="35" lean-forward="false" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+        <state relative-caret-position="318">
+          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/reducers/messy.js">
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="43" column="63" lean-forward="false" selection-start-line="43" selection-start-column="63" selection-end-line="44" selection-end-column="45" />
+        <state relative-caret-position="12">
+          <caret line="150" column="6" lean-forward="false" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/utils/Utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/Notification.js">
+    <entry file="file://$PROJECT_DIR$/src/js/utils/textNotification.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="285">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding>
-            <element signature="e#143#199#0" expanded="true" />
+            <element signature="e#505#1274#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/vendor-7271a5258248eb82db6e.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="0" column="1667" lean-forward="false" selection-start-line="0" selection-start-column="1667" selection-end-line="0" selection-end-column="1667" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#145#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/CreateAccount.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/components/MessyEdit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="30">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/NotificationInProgress.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
           <folding>
-            <marker date="1495031826827" expanded="true" signature="737:773" ph="&lt;div/&gt;" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/NotificationSuccess.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/MessyDisplay.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="219" column="27" lean-forward="false" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
+        <state relative-caret-position="149">
+          <caret line="174" column="35" lean-forward="true" selection-start-line="174" selection-start-column="35" selection-end-line="174" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/ListMessys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/actions/actionCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#396#419#0" expanded="true" />
+            <element signature="e#532#692#0" expanded="false" />
+            <element signature="e#553#682#0" expanded="false" />
+            <element signature="e#568#614#0" expanded="false" />
+            <element signature="e#630#676#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/Notification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/reducers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-446">
+          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/NotificationFail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/reducers/messy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
